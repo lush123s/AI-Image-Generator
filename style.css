@@ -99,11 +99,19 @@ html {
 @media (max-width: 768px) {
     .row input {
         width: 80%;
+        margin-bottom: 20px;
     }
 
     .results img {
-        width: 80%;
-        height: auto;
+        width: 100%;
+        max-width: 300px; /* Restrict the max width */
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 220px;
+        object-fit: cover;
+        object-position: center;
     }
 
     .main h1 {
